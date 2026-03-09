@@ -174,7 +174,7 @@ async function main() {
       });
 
       if (OFFICES.length > 1) {
-        map.fitBounds(OFFICES.map(o => [o.lat, o.lng]), { padding: [30, 30], maxZoom: 4 });
+        map.fitBounds(OFFICES.map(o => [o.lat, o.lng]), { padding: [30, 30], maxZoom: 2 });
       } else {
         map.setView([20, -20], 2);
       }
