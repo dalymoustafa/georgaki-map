@@ -131,7 +131,7 @@ async function main() {
 
   function makeIcon(isHq) {
     const fill = isHq ? "#c71e1d" : "#1d81a2";
-    const size = isHq ? 20 : 13;
+    const size = isHq ? 15 : 13;
     return L.divIcon({
       className: "",
       html: \`<svg width="\${size}" height="\${size}" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
